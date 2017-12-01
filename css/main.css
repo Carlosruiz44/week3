@@ -97,13 +97,28 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.box {
+    background: blue;
+    height: 100px;
+    margin: 10px;
+    transition: all 1s;
+    width: 100px;
+}
+
+
+.box:hover {
+    background: red;
+}
 
 
 
+a {
+    transition: all 1s;
+}
 
-
-
-
+a:hover {
+    font-size: 20px;
+}
 
 
 
